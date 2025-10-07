@@ -17,8 +17,6 @@ If you want to take multiple images of a set region without having to click and 
 
 If you want to get text from a screenshot of a video or a game, or text from a site that won't let you Ctrl +C, this is for you.
 
----
-
 ## How To Use
 
 ### Screenshot Tool
@@ -40,8 +38,6 @@ If you want to get text from a screenshot of a video or a game, or text from a s
   - Adaptive thresholding  
   - Upscaling for better OCR accuracy  
 - Saves each image’s extracted text as a separate `.txt` file in a `text/` folder (can be changed)
-
----
 
 ## 🧩 Requirements
 
