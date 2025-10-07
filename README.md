@@ -2,8 +2,6 @@
 
 Two simple Python scripts that allow you to capture screenshots and extract text.
 
----
-
 ## Overview
 
 ### **Screenshot Tool** (`screenshot.py`)
