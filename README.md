@@ -14,6 +14,7 @@ This is best suited for screenshots that are all or mostly text. It handles **ba
 
 ### Why?
 If you want to take multiple images of a set region without having to click and drag the screenshot area over and over again, this is for you.
+
 If you want to get text from a screenshot of a video or a game, or text from a site that won't let you Ctrl +C, this is for you.
 
 ---
