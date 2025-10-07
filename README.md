@@ -39,7 +39,7 @@ If you want to get text from a screenshot of a video or a game, or text from a s
   - Upscaling for better OCR accuracy  
 - Saves each image’s extracted text as a separate `.txt` file in a `text/` folder (can be changed)
 
-## 🧩 Requirements
+## Requirements
 
 - **Python 3.8+**
 - **Dependencies:**
@@ -48,18 +48,12 @@ If you want to get text from a screenshot of a video or a game, or text from a s
 
     Tesseract OCR:
 
-        🪟 Windows: Download installer
+        Windows: Download installer
 
-        🍎 macOS: brew install tesseract
+        macOS: brew install tesseract
 
-        🐧 Linux (Debian/Ubuntu): sudo apt install tesseract-ocr
+        Linux (Debian/Ubuntu): sudo apt install tesseract-ocr
 
 If you’re on Windows, update this line in extract_text.py if Tesseract isn’t in your PATH:
 
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-
-    Extract text from unselectable UIs or copy-protected websites
-
-    Batch transcribe multiple text-only screenshots
-
-    Build your own automated OCR workflow
