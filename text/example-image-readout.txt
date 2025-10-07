@@ -1,0 +1,16 @@
+<start-—point>
+The starting point for the new branch. Specifying a<start—point> allows you to create a branch
+based on some other point in history than where HEAD currently points. (Or, in the case of --detac
+allows you to inspect and detach from some other point.)
+You can use the @{—<N>} syntax to refer to the <N>-th last branch/commit switched to using git
+switch or git checkout operation. You may also specify ~ which is synonymous to @{~1}. This
+often used to switch quickly between two branches, or to undo a branch switch by mistake.
+As a special case, you may use <rev—a>. . .<rev—b> as a shortcut for the merge base of <rev—a>
+<xev-—b> if there is exactly one merge base. You can leave out at most one of <rev—a> and <rev-b:;
+which case it defaults to HEAD.
+
+-c <new-branch>
+
+~-create <new-branch>
+Create a new branch named <new-branch> starting at<start-—point> before switching to the
+branch. This is the transactional equivalent of
